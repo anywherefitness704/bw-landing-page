@@ -36,9 +36,14 @@ body{
 
 header{
 width:100%;
-background-color:#ff9a76 ;
+background-color:#679B9B;
 border-bottom-left-radius:25px ;
 border-bottom-right-radius:25px ;
+border-bottom-style: solid;
+border-bottom-color: white;
+border-bottom-width: 3px;
+
+
 
 }
 
@@ -70,7 +75,7 @@ padding-top: 60px;
 a.homelink {
 text-decoration: none;
 font-family: 'Righteous';
-color: #900d0d;
+color: white;
 font-weight: bolder;
 padding-right: 35px;
 }
@@ -78,7 +83,7 @@ padding-right: 35px;
 a.aboutlink {
 text-decoration: none;
 font-family: 'Righteous';
-color: #900d0d;
+color: white;
 font-weight: bolder;
 padding-right: 35px;
 }
@@ -86,7 +91,7 @@ padding-right: 35px;
 a.merchlink {
 text-decoration: none;
 font-family: 'Righteous';
-color: #900d0d;
+color: white;
 font-weight: bolder;
 padding-right: 35px;
 }
@@ -94,32 +99,32 @@ padding-right: 35px;
 a.memberlink {
 text-decoration: none;
 font-family: 'Righteous';
-color: #900d0d;
+color: white;
 font-weight: bolder;
 
     }
 
 a.homelink:hover {
-color: black;
+color: #B0330D;
 font-family: 'Righteous';
 transition-duration: .8s;
 
 }
 
 a.aboutlink:hover {
-    color: black;
+    color: #B0330D;
     font-family: 'Righteous';
     transition-duration: .8s;
 }
 
 a.merchlink:hover {
-    color: black;
+    color: #B0330D;
     font-family: 'Righteous';
     transition-duration: .8s;
 }
 
 a.memberlink:hover {
-    color: black;
+    color: #B0330D;
     font-family: 'Righteous';
     transition-duration: .8s;
 }
@@ -128,7 +133,7 @@ a.memberlink:hover {
 
 button{
     margin-right: 50px;
-    background-color: #ff5f40;
+    background-color: #1C0C26;
     color: white;
     text-align: center;
     font-size: 16px;
@@ -150,7 +155,7 @@ a.button1link{
 }
 
 button:hover{
-    background-color: #679b9b;
+    background-color: #FF5F40;
     transition-duration: .8s;
 }
 
@@ -188,7 +193,7 @@ button:hover{
 h1 {
     font-size: 120px;
     font-family: 'Ranchers';
-    color:#ff5f40;
+    color:#FF9A76;
 }
 
 .greenFont {
@@ -232,7 +237,7 @@ h2{
 }
 
 .beigeFont {
-    color:#f7c5a8;
+    color:#FF9A76;
     font-family:'Righteous'
 
 }
@@ -242,24 +247,51 @@ h2{
 .box2{
     background-color:#1c0c26;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
+
+.marketingText {
+    
+
+}
+
+ h3 {
+    padding-top: 25px;
+    color:white;
+    font-family: 'Ranchers';
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    padding-top: 25px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-bottom: 25px;
+    color:white;
+    font-family: 'Righteous';
+    font-size: 18px;
+    text-align: center;
+}
+
+
 .imgGroup{
+    display: flex;
+    flex-direction: row;
+
  
 
 }
 
 .imgGroup img{
    width:320px;
+   padding-right:10px;
 }
-
-
-
-
 
 
 
@@ -353,6 +385,18 @@ h1 {
 
  h2{
         font-size: 72px;
+}
+
+.imgGroup{
+ display: flex;
+ flex-direction: column;
+
+
+}
+
+.imgGroup img{
+   width:420px;
+   padding-right:10px;
 }
 
 
