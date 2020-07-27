@@ -1,0 +1,405 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+
+body{
+
+    background-color:#1c0c26;
+    width: 100%;
+}
+
+
+
+/* HEADER START */
+
+
+
+header{
+width:100%;
+background-color:#679B9B;
+border-bottom-left-radius:25px ;
+border-bottom-right-radius:25px ;
+border-bottom-style: solid;
+border-bottom-color: white;
+border-bottom-width: 3px;
+
+
+
+}
+
+.headerContainer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+    
+}
+
+.logo{
+    
+}
+
+.logo img{
+    width:120px;
+   margin-left: 50px;
+}
+
+/* NAV BAR */
+
+nav{
+padding-right:100 px;
+padding-top: 60px;
+
+}
+
+a.homelink {
+text-decoration: none;
+font-family: 'Righteous';
+color: white;
+font-weight: bolder;
+padding-right: 35px;
+}
+
+a.aboutlink {
+text-decoration: none;
+font-family: 'Righteous';
+color: white;
+font-weight: bolder;
+padding-right: 35px;
+}
+
+a.merchlink {
+text-decoration: none;
+font-family: 'Righteous';
+color: white;
+font-weight: bolder;
+padding-right: 35px;
+}
+
+a.memberlink {
+text-decoration: none;
+font-family: 'Righteous';
+color: white;
+font-weight: bolder;
+
+    }
+
+a.homelink:hover {
+color: #B0330D;
+font-family: 'Righteous';
+transition-duration: .8s;
+
+}
+
+a.aboutlink:hover {
+    color: #B0330D;
+    font-family: 'Righteous';
+    transition-duration: .8s;
+}
+
+a.merchlink:hover {
+    color: #B0330D;
+    font-family: 'Righteous';
+    transition-duration: .8s;
+}
+
+a.memberlink:hover {
+    color: #B0330D;
+    font-family: 'Righteous';
+    transition-duration: .8s;
+}
+
+/* BUTTON 1 */
+
+button{
+    margin-right: 50px;
+    background-color: #1C0C26;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Ranchers';
+    border-radius: 12px;
+    border-color: white;
+    border-width: 3px;
+    width:150px;
+    height: 40px;
+    margin-top: 25px;
+
+    
+}
+
+a.button1link{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: #FF5F40;
+    transition-duration: .8s;
+}
+
+
+/* HEADER END */
+
+
+
+/* SECTION 1 / HERO IMAGE & Mission Statement */
+
+
+
+.heroimage {
+    background-image:url("assets/image2.jpg");
+    width: 100%;
+    height:500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+
+.mainTextBox{
+    background-color:#f7c5a8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+ 
+}
+
+h1 {
+    font-size: 120px;
+    font-family: 'Ranchers';
+    color:#FF9A76;
+}
+
+.greenFont {
+    color:#679b9b;
+    font-family:'Righteous'
+}
+
+/* SECTION 2 / IMAGE 2 & Marketing */
+
+
+
+
+.image2{
+    background-image:url("assets/hero_img.jpg");
+    width: 100%;
+    height:500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.box{
+    background-color:#679b9b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+h2{
+
+    font-size: 120px;
+    font-family: 'Ranchers';
+    color:#ff5f40;
+
+}
+
+.beigeFont {
+    color:#FF9A76;
+    font-family:'Righteous'
+
+}
+
+/* SECTION 3 / MORE MARKETING */
+
+.box2{
+    background-color:#1c0c26;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.marketingText {
+    
+
+}
+
+ h3 {
+    padding-top: 25px;
+    color:white;
+    font-family: 'Ranchers';
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    padding-top: 25px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-bottom: 25px;
+    color:white;
+    font-family: 'Righteous';
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.imgGroup{
+    display: flex;
+    flex-direction: row;
+
+ 
+
+}
+
+.imgGroup img{
+   width:320px;
+   padding-right:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:800px){
+
+    h1 {
+        font-size: 100px;
+    
+        }
+
+    h2{
+        font-size: 100px;
+    }
+
+}
+
+
+
+
+
+
+@media(max-width:500px){
+
+.headerContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+
+    .logo img{
+        width:180px;
+       margin-left: 0px;
+    }
+
+nav{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+a.homelink {
+    font-size: 30px;
+    padding-right: 0px;
+    }
+            
+a.aboutlink {
+    font-size: 30px;
+    padding-right: 0px;
+     }
+            
+a.merchlink {
+    font-size: 30px;
+    padding-right: 0px;
+    }
+
+a.memberlink{
+    font-size: 30px;
+    padding-right: 0px;
+}
+      
+button{
+        margin-right: 0px;
+        font-size: 30px;
+        width:180px;
+        height: 80px;
+        margin-bottom: 25px;
+    }   
+   
+.mainTextBox{
+        height: 400px;
+}   
+
+h1 {
+    font-size: 72px;
+
+    }
+
+
+
+ h2{
+        font-size: 72px;
+}
+
+.imgGroup{
+ display: flex;
+ flex-direction: column;
+
+
+}
+
+.imgGroup img{
+   width:420px;
+   padding-right:10px;
+}
+
+
+
+
+}
