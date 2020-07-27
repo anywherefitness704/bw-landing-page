@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <header class="topclass">
+        <nav class="toplink">
+            <a class= "home" href="index.html" alt= "Link to Home Page">Home </a>
+            <a class="dashboard" href="dashboard.html" alt= "Link to Dashboard">Dashboard</a>
+            <a class="about"  href="about.html" alt="Link to the About Us Page">About Us</a>
+        </nav>
+    </header>
+    <section class="dash">
+        <div class= "profile">
+        <h2 id= "profile1">Profile</h2>
+        <p class= "info">Welcome to Anytime Fitness. Thank you for growing together with us!</p>
+        </div>
+        <div class="history">
+            <table id="table">
+                <tr>
+                    <th>Classes</th>
+                    <th>Saved</th>
+                    <th>Applied</th>
+                    <th>Messages</th>
+                </tr>
+                <tr>
+                    <td><input type="textbox" /> </td>
+                    <td><input type="checkbox" /> </td>
+                    <td><input type="checkbox" /> </td>
+                    <td><input type="textbox" /> </td>
+                </tr>
+                <tr>
+                    <td><input type="textbox" /> </td>
+                    <td><input type="checkbox" /> </td>
+                    <td><input type="checkbox" /> </td>
+                    <td><input type="textbox" /> </td>
+                </tr>
+            </table>
+
+            <button type="button" id="table-button-row" onclick="addRow()">Add Row</button>
+        </div>
+    </section>
+    <footer class="bottomlinks">
+        <h3>Grow Together, Be Connected</h3>
+        <nav class="toplink">
+            <a class= "home" href="index.html" alt= "Link to Home Page">Home </a>
+            <a class="dashboard" href="dashboard.html" alt= "Link to Dashboard">Dashboard</a>
+            <a class="about"  href="about.html" alt="Link to the About Us">About Us</a>
+        </nav>
+    </footer>
+    <script src="dashboard.js"></script>
+</body>
+</html>
