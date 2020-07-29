@@ -67,10 +67,12 @@ nav{
 	display:flex;
 	flex-direction:column;
 	padding:2%;
-	margin:6% 15%;
+	margin:4% 4%;
 	
 }
 nav a{
+	margin-bottom: 10%;
+	align-content: center;
 	font-family: 'Righteous', cursive;
 	text-align:center;
 	text-decoration:none;
