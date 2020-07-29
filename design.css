@@ -67,14 +67,16 @@ nav{
 	display:flex;
 	flex-direction:column;
 	padding:2%;
-	margin:6% 15%;
+	margin:4% 4%;
 	
 }
 nav a{
-	font-family: 'Shadows Into Light', cursive;
+	margin-bottom: 10%;
+	align-content: center;
+	font-family: 'Righteous', cursive;
 	text-align:center;
 	text-decoration:none;
-	border:2px solid gray;
+	border:2px solid #679B9B;
 	background-color:#FF5F40;
 	color:#1C0C26;
 	font-size: 1.8rem;
@@ -91,11 +93,11 @@ nav a:hover{
 /* body of main page */
 
 h1 {
-	font-size:4.5rem;
+	font-size:4.0rem;
 	text-align:center;
 	font-weight:bold;
 	color:#1C0C26;
-	font-family: 'Gayathri', sans-serif;
+    font-family: 'Righteous', sans-serif;
 	margin:10%;
 }
 h3{
@@ -103,18 +105,23 @@ h3{
 	text-align:center;
 	font-weight:bold;
 	color:#1C0C26;
-	font-family: 'Gayathri', sans-serif;
+	font-family: 'Righteous', sans-serif;
 	margin:10%;
 }
 .registration{
+	background-image: url(https://images.unsplash.com/photo-1560541919-eb5c2da6a5a3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+	height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
 	display:flex;
 	flex-direction:column;
     line-height: 5rem;
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
 }
 .registration form{
-	font-family: 'Shadows Into Light', cursive;
+	font-family: 'Ranchers', cursive;
 	font-size:2rem;
 	text-align:center;
     margin:5% 15% 20%;	
@@ -127,7 +134,7 @@ h3{
     border-radius: 10px;
 	background-color: #FF9A76;
 	color:#679B9B;
-	font-family: 'Gayathri', sans-serif;
+	font-family: 'Righteous', sans-serif;
 	font-size:1.6rem;
 }
 .submit:hover {
@@ -170,7 +177,7 @@ h3{
 }
 h2{
 	font-size:2.5rem;
-	font-family: 'Gayathri', sans-serif;
+	font-family: 'Righteous', sans-serif;
 	text-align:center;
 	line-height: 4rem;
 	font-weight:bold;
@@ -183,7 +190,7 @@ p{
 	line-height: 2.8rem;
 	text-align:center;
 	margin:3% 4%;
-	font-family: 'Shadows Into Light', cursive;
+	font-family: 'Ranchers', cursive;
 	letter-spacing: .1rem;
 	color:#679B9B;
 }
@@ -195,7 +202,7 @@ button{
 	font-size:1.9rem;
 	padding:2%;
 	border-radius:10px;
-	font-family: 'Shadows Into Light', cursive;
+	font-family: 'Ranchers', cursive;
 	font-weight: bold;
 	letter-spacing: .2rem;
 	background-color:#679B9B;
@@ -217,7 +224,7 @@ th{
 	font-size:1.8rem;
 	text-align:center;
 	line-height: 3rem;
-	font-family: 'Gayathri', sans-serif;
+	font-family: 'Righteous', sans-serif;
 	margin:4% 0;
 	color: #FF9A76;
 	padding:1.7%;
@@ -226,21 +233,30 @@ th:hover{
 	color: #FF5F40;
 }
 
-table {
-	
-	margin:2% 4%;
-	padding:3%;
+#table {
+	font-family: 'Ranchers', sans-serif;
+	margin:2% 2%;
+	padding:1%;
 }
 
-table, th, td {
+#table, th, td {
 	border: 2px solid #679B9b;
 	
 }
 
-
+.dash{
+	align-items: center;
+	background-image: url(https://images.unsplash.com/photo-1523559745981-a34343b81db2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+	width:100%;
+	background-attachment: fixed;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Righteous', cursive;
+}
 
 #table td { 
-    width: 25%;
+    width: 50%;
 }
 
 td {
@@ -268,13 +284,18 @@ input {
 		justify-content:space-around;
 	}
 	nav a{
-		padding:2%;
-		width:23%;
+		padding:1%;
+		width:15%;
+    }
+    .toplink{
+        widows: 50%;
+        margin-bottom: 0px;
     }
 	button{
+        justify-content: center;
 		width:20%;
-		margin:2% 40%;
-		padding:1%;
+		margin:2% 4%;
+		padding:2%;
 	}
 	.tabs{
 		display:flex;
@@ -287,14 +308,22 @@ input {
 	.dash p{
 		margin:2% 10%;
 		padding:2%;
-	}
+    }
     
-    table {
-        width: 90%;
+    #table-button-row{
+        justify-content: center;
+    }
+    #table {
+        width: 95%;
+        align-items: center;
 	}
 	.submit{
 		width:30%;
 		padding:1%;
 	}
+	@media (prefers-reduced-motion: reduce) {
+		button {
+		  animation: none;
+		}
 }
 
