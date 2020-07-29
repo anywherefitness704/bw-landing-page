@@ -109,10 +109,15 @@ h3{
 	margin:10%;
 }
 .registration{
+	background-image: url(https://images.unsplash.com/photo-1560541919-eb5c2da6a5a3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+	height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
 	display:flex;
 	flex-direction:column;
     line-height: 5rem;
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
 }
 .registration form{
@@ -230,8 +235,8 @@ th:hover{
 
 #table {
 	font-family: 'Ranchers', sans-serif;
-	margin:2% 4%;
-	padding:3%;
+	margin:2% 2%;
+	padding:1%;
 }
 
 #table, th, td {
@@ -240,11 +245,18 @@ th:hover{
 }
 
 .dash{
+	align-items: center;
+	background-image: url(https://images.unsplash.com/photo-1523559745981-a34343b81db2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+	width:100%;
+	background-attachment: fixed;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Righteous', cursive;
 }
 
 #table td { 
-    width: 25%;
+    width: 50%;
 }
 
 td {
@@ -302,12 +314,16 @@ input {
         justify-content: center;
     }
     #table {
-        width: 90%;
+        width: 95%;
         align-items: center;
 	}
 	.submit{
 		width:30%;
 		padding:1%;
 	}
+	@media (prefers-reduced-motion: reduce) {
+		button {
+		  animation: none;
+		}
 }
 
