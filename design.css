@@ -124,7 +124,7 @@ h3{
 /*testimonial css*/
 .marketing{
 	display:flex;
-	flex-direction:row;
+	flex-direction: column;
     line-height: 3rem;
     width: 90%;
 	margin: 0 auto;
@@ -368,7 +368,9 @@ input {
 		margin:2% 10%;
 		padding:2%;
     }
-    
+    .marketing{
+		flex-direction:row;
+	}
     #table-button-row{
         justify-content: center;
     }
